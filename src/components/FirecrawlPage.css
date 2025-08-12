@@ -1,0 +1,96 @@
+.firecrawl-page {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #b2fab4, #ffffff); /* Light green to white */
+    padding: 2rem;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw; /* ✅ Add this */
+
+  }
+  
+  .back-button {
+    background-color: #e2e8f0;
+    color: #2d3748;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .back-button:hover {
+    background-color: #cbd5e0;
+  }
+  
+  .firecrawl-title {
+    font-size: 2.5rem;
+    color: #2f855a;
+    margin-bottom: 1.5rem;
+  }
+  
+  .search-section {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .search-section input {
+    flex-grow: 1;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .search-button {
+    background-color: #38a169;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #2f855a;
+  }
+  
+  .loading,
+  .error {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #d53f8c;
+  }
+  
+  .result-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+    color: #2d3748;
+  }
+  
+  .result-card h2 {
+    color: #2f855a;
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .result-card p {
+    margin: 0.5rem 0;
+  }
+  
+  .result-card a {
+    color: #3182ce;
+    text-decoration: underline;
+  }
+  
